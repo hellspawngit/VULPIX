@@ -1,37 +1,26 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
-  "main": "server.js",
+  "name": "mew",
+  "version": "1.0.0",
+  "description": "mew",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "nathan (hellspawn)",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
-    "discord.js": "^11.3.0",
-    "opusscript": "^0.0.6",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.2.1",
+    "enmap": "^0.4.2",
+    "ffmpeg-binaries": "^3.2.2-3",
     "googleapis": "^24.0.0",
-    "snekfetch": "^3.6.1",
-    "cheerio": "^0.22.0",
+    "node-google-image-search": "^1.0.3",
+    "opusscript": "0.0.6",
     "querystring": "^0.2.0",
-    "ffmpeg-binaries": "^3.2.2",
-    "ytdl-core": "^0.18.7",
     "quick.db": "^3.0.3",
-    "weather-js": "^2.0.0"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "snekfetch": "^3.6.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^0.18.7"
+  }
 }
