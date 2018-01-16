@@ -531,4 +531,4 @@ createGuild(bot, message);
                                  }
 })
 
-bot.login("NDAyNjI2MjUxNjY5NTA0MDAy.DT7edQ.p1zJpiYj_6nwQT5synuxnoi90UA")
+bot.login(process.env(BOT_TOKEN));
