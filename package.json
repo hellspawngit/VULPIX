@@ -2,7 +2,6 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-
   "name": "my-glitch-app",
   "version": "0.0.1",
   "description": "What am I about?",
@@ -11,7 +10,17 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "discord.js": "^11.3.0",
+    "opusscript": "^0.0.6",
+    "googleapis": "^24.0.0",
+    "snekfetch": "^3.6.1",
+    "cheerio": "^0.22.0",
+    "querystring": "^0.2.0",
+    "ffmpeg-binaries": "^3.2.2",
+    "ytdl-core": "^0.18.7",
+    "quick.db": "^3.0.3",
+    "weather-js": "^2.0.0"
   },
   "engines": {
     "node": "8.x"
